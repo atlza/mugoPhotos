@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{ $image := .Resources.GetMatch .Params.background }}
+
+    <main class="overflow-y-auto">
+        <div class="min-w-full min-h-screen bg-no-repeat bg-center bg-cover mr-4" style="background-image: url( {{ ( $image.Resize "2000x webp" ).RelPermalink }} )">
+            <div class="min-w-full min-h-screen bg-blend-darken relative">
+                <div class="grid place-items-center h-screen">
+                    <div class="bg-black absolute min-w-full min-h-screen  opacity-25"></div>
+                    <h1 class="text-center text-3xl tracking-wide text-white brightness-200 p-7">
+                        {{ .Params.h1 }}
+                        <small class="block">{{ .Params.h1span }}</small>                        
+                        <span class="frame-1"></span> <span class="frame-2"></span>                        
+                    </h1>
+                </div>
+            </div>
+          </div>
+
+          <div class="py-32 w-3/4 mx-auto text-lg">
+            {{ .Content }}
+          </div>
+
+    </main>
+{{ end }}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="py-24 w-1/2 mx-auto">
+  <header class="pb-8 text-center">
+      <span class="text-sm text-zinc-400 tracking-widest uppercase mb-6">{{ .Params.h1Span }} {{ .PublishDate.Format "2/01/2006" }}</span>
+      <h1>{{ .Params.h1 }}</h1>    
+  </header>
+  <section>
+    <div class="text-gray-500 paragraph my-4">
+      {{ .Content }}
+    </div>
+  </section>
+{{ end }}

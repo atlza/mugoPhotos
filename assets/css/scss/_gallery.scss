@@ -1,0 +1,23 @@
+@layer utilities {
+    @variants responsive {
+        .masonry-4-col {
+            column-count: 4;
+            column-gap: 1em;
+        }
+        .masonry-3-col {
+            column-count: 3;
+            column-gap: 2em;
+        }
+        .masonry-2-col {
+            column-count: 2;
+            column-gap: 1em;
+        }
+        .break-inside {
+            break-inside: avoid;
+        }
+    }
+}
+
+blockquote{
+    @apply text-center p-4 mx-auto border bg-slate-100 w-2/3 my-6 rounded-lg
+}
