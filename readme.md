@@ -2,7 +2,7 @@
 
 📜 A minimalist multi-pages [Hugo](https://gohugo.io/)-theme for photographers'websites.
 
-![Screenshot mugoPhotos Theme](https://raw.githubusercontent.com/janraasch/hugo-scroll/master/images/tn.png)
+![Screenshot mugoPhotos Theme](https://work.withmu.com/wp-content/uploads/2022/02/Capture-décran-2022-02-15-à-14.52.39.png)
 
 ## Demo
 
@@ -15,9 +15,6 @@ If you already have a hugo site on your machine, you can simply add this theme v
 ```
 git submodule add https://github.com/atlza/mugoPhotos.git themes/mugoPhotos
 ```
-
-Then, adjust the `config.toml` as detailed below.
-
 
 For more information read the official [setup guide][hugo-setup-guide] of Hugo.
 
