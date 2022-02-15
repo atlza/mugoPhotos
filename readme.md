@@ -2,7 +2,7 @@
 
 📜 A minimalist multi-pages [Hugo](https://gohugo.io/)-theme for photographers'websites.
 
-![Screenshot mugoPhotos Theme](https://raw.githubusercontent.com/atlza/mugoPhotos/main/static/imgs/mugoPhotos.png)
+![Screenshot mugoPhotos Theme](https://github.com/atlza/mugoPhotos/raw/main/static/capture/mugoPhotos.png)
 
 ## Demo
 
